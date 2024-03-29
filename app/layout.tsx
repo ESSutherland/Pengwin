@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Penwin",
+  title: "Pengwin",
   description:
     "Pengwin is a twitch streamer who plays games and does other stuff.",
 };
