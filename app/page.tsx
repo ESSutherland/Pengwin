@@ -6,11 +6,14 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { Snowfall } from "react-snowfall";
+import { useMedia } from "react-use";
 
 export default function Home() {
+  const is3XL = useMedia("(min-width: 2000px)", false);
+
   return (
     <div className="font-simplestamp h-full w-full text-sky-100 bg-gradient-to-tr from-sky-400 to-sky-500 relative">
-      <Snowfall />
+      <Snowfall snowflakeCount={is3XL ? 300 : 150} />
       <div className="bg-[url('/bottom-corner.png')] h-[400px] w-[400px] bg-contain absolute bottom-0 bg-no-repeat" />
       <div className="bg-[url('/top-corner.png')] h-[300px] w-[300px] bg-contain absolute top-0 right-0 bg-no-repeat" />
       <div className="w-full h-full max-w-[1140px] mx-auto flex flex-col items-center">
