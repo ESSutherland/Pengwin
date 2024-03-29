@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
-import { Check, Twitter, TwitterIcon } from "lucide-react";
 import { FaDiscord, FaTiktok, FaXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
