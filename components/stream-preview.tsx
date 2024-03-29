@@ -12,19 +12,18 @@ const StreamPreview = () => {
     <div
       className={cn(
         "relative flex items-center justify-center bg-sky-500",
-        isMobile ? "rounded-2xl" : "rounded-3xl"
+        isMobile ? "rounded-2xl p-0" : "rounded-3xl p-1"
       )}
     >
       <TwitchPlayer
         channel="pengwin"
-        width={isMobile ? 340 : is3XL ? 820 : 640}
-        height={isMobile ? 200 : is3XL ? 465 : 360}
+        width={isMobile ? 320 : is3XL ? 854 : 640}
+        height={isMobile ? 180 : is3XL ? 480 : 360}
         className={cn("", isMobile ? "p-2" : "p-2.5")}
       />
       <div
         className={cn(
-          "bg-[url('/box.png')] absolute top-0 w-full h-full bg-contain bg-no-repeat pointer-events-none",
-          isMobile || is3XL ? "left-0" : "left-1"
+          "bg-[url('/box.png')] absolute top-0 w-full h-full bg-contain bg-no-repeat pointer-events-none"
         )}
       />
     </div>
