@@ -18,11 +18,11 @@ export default function Home() {
       <div className="bg-[url('/top-corner.png')] h-[300px] w-[300px] bg-contain absolute top-0 right-0 bg-no-repeat" />
       <div className="w-full h-full max-w-[1140px] mx-auto flex flex-col items-center">
         <Navbar />
+        <p className="text-center tracking-widest blue-shadow-lg uppercase text-[3rem] sm:hidden block">
+          pengwin
+        </p>
 
         <div className="flex flex-col items-center justify-center gap-y-3 h-full">
-          <p className="text-center tracking-widest blue-shadow-lg uppercase text-[3rem] sm:hidden block">
-            pengwin
-          </p>
           <StreamPreview />
           <Button variant="ghost" className="group" asChild>
             <Link
