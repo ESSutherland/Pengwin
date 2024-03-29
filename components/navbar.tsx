@@ -19,22 +19,28 @@ const Navbar = () => {
             className="hover:scale-105 transition-all"
           />
         </Link>
-        <p className="text-center tracking-widest blue-shadow-lg uppercase text-[3rem]">
+        <p className="text-center tracking-widest blue-shadow-lg uppercase text-[3rem] hidden sm:block">
           pengwin
         </p>
       </div>
 
       <div className="flex items-center h-full gap-x-3">
         <Button variant="social" size="icon">
-          <FaXTwitter className="w-8 h-8" />
+          <Link href="https://twitter.com/PengwinTTV" target="_blank">
+            <FaXTwitter className="w-8 h-8" />
+          </Link>
         </Button>
 
         <Button variant="social" size="icon">
-          <FaDiscord className="w-8 h-8" />
+          <Link href="https://www.discord.gg/pengwin" target="_blank">
+            <FaDiscord className="w-8 h-8" />
+          </Link>
         </Button>
 
         <Button variant="social" size="icon">
-          <FaTiktok className="w-7 h-7" />
+          <Link href="https://www.tiktok.com/@pengwinttv" target="_blank">
+            <FaTiktok className="w-7 h-7" />
+          </Link>
         </Button>
       </div>
     </nav>

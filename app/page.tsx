@@ -4,7 +4,6 @@ import Navbar from "@/components/navbar";
 import StreamPreview from "@/components/stream-preview";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import { Snowfall } from "react-snowfall";
 
@@ -16,6 +15,9 @@ export default function Home() {
         <Navbar />
 
         <div className="flex flex-col items-center justify-center gap-y-3 h-full">
+          <p className="text-center tracking-widest blue-shadow-lg uppercase text-[3rem] sm:hidden block">
+            pengwin
+          </p>
           <StreamPreview />
           <Button variant="ghost" className="group" asChild>
             <Link
