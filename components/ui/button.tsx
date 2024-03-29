@@ -19,7 +19,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         ghost: "hover:bg-black/10 uppercase text-lg blue-shadow-sm",
         social:
-          "bg-sky-100 border-2 border-sky-600 border-b-4 text-sky-500 rounded-full hover:bg-sky-200 active:border-b-2",
+          "bg-sky-100 border-2 border-sky-600 border-b-4 text-sky-500 rounded-full hover:bg-sky-200 active:border-b-2 hover:scale-105 transition-all",
       },
       size: {
         default: "h-10 px-4 py-2",

@@ -4,13 +4,16 @@ import Navbar from "@/components/navbar";
 import StreamPreview from "@/components/stream-preview";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { Snowfall } from "react-snowfall";
 
 export default function Home() {
   return (
-    <div className="font-simplestamp h-full w-full text-sky-100 bg-gradient-to-tr from-sky-400 to-sky-500">
+    <div className="font-simplestamp h-full w-full text-sky-100 bg-gradient-to-tr from-sky-400 to-sky-500 relative">
       <Snowfall />
+      <div className="bg-[url('/bottom-corner.png')] h-[400px] w-[400px] bg-contain absolute bottom-0 bg-no-repeat" />
+      <div className="bg-[url('/top-corner.png')] h-[300px] w-[300px] bg-contain absolute top-0 right-0 bg-no-repeat" />
       <div className="w-full h-full max-w-[1140px] mx-auto flex flex-col items-center">
         <Navbar />
 
