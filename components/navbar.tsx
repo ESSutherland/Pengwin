@@ -39,7 +39,7 @@ const Navbar = ({ isAtTop }: NavbarProps) => {
 
         <p
           className={cn(
-            "text-center tracking-widest blue-shadow-lg uppercase text-[3rem] hidden sm:block",
+            "text-center tracking-widest blue-shadow-lg uppercase text-3xl md:text-[3rem] hidden sm:block",
             !isAtTop && "text-3xl"
           )}
         >
