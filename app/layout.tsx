@@ -14,9 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="text-sky-100 bg-gradient-to-tr from-sky-400 to-sky-500 bg-cover bg-no-repeat relative font-simplestamp">
-        {children}
-      </body>
+      <body className="">{children}</body>
     </html>
   );
 }

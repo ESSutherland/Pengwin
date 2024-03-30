@@ -15,16 +15,16 @@ export default function Home() {
   const { y } = useScroll(scrollRef);
 
   return (
-    <div className=" w-full h-full flex flex-cole" ref={scrollRef}>
+    <div
+      className=" w-full h-full text-sky-100 bg-gradient-to-tr from-sky-400 to-sky-500 bg-cover bg-no-repeat relative font-simplestamp"
+      ref={scrollRef}
+    >
       <Snow />
 
       <div className="bg-[url('/bottom-corner.png')] h-[433.5px] w-[394.5px] bg-contain bg-center fixed bottom-0 bg-no-repeat z-[2] pointer-events-none" />
       <div className="bg-[url('/top-corner.png')] h-[222px] w-[267px] bg-contain bg-center fixed top-0 right-0 bg-no-repeat z-[2] pointer-events-none" />
 
       <Navbar isAtTop={y === 0} />
-      <p className="text-center tracking-widest blue-shadow-lg uppercase text-[3rem] sm:hidden block pt-28 sm:pt-0">
-        pengwin
-      </p>
 
       <div className="w-full h-full max-w-[1140px] mx-auto flex flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center gap-y-3 h-full">
