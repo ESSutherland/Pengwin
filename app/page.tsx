@@ -21,8 +21,8 @@ export default function Home() {
     >
       <Snow />
 
-      <div className="bg-[url('/bottom-corner.png')] h-[289px] w-[263px] sm:h-[433.5px] sm:w-[394.5px] bg-contain bg-center fixed bottom-0 bg-no-repeat z-[2] pointer-events-none" />
-      <div className="bg-[url('/top-corner.png')] h-[148px] w-[178px] sm:h-[222px] sm:w-[267px] bg-contain bg-center fixed top-0 right-0 bg-no-repeat z-[2] pointer-events-none" />
+      <div className="bg-[url('/bottom-corner.png')] h-[289px] w-[263px] lg:h-[433.5px] lg:w-[394.5px] bg-contain bg-center fixed bottom-0 bg-no-repeat z-[2] pointer-events-none" />
+      <div className="bg-[url('/top-corner.png')] h-[148px] w-[178px] lg:h-[222px] lg:w-[267px] bg-contain bg-center fixed top-0 right-0 bg-no-repeat z-[2] pointer-events-none" />
 
       <Navbar isAtTop={y === 0} />
 
