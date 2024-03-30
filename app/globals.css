@@ -46,6 +46,14 @@ body,
     --radius: 0.5rem;
 
     --shadow-color: rgb(15, 149, 211);
+
+    ::-webkit-scrollbar {
+      @apply w-[10px] bg-sky-100 hidden sm:block;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      @apply bg-sky-300;
+    }
   }
 
   .dark {
