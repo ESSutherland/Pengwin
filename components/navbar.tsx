@@ -49,7 +49,7 @@ const Navbar = ({ isAtTop }: NavbarProps) => {
 
       <div className="flex items-center h-full gap-x-3">
         <Button variant="social" size="icon">
-          <Link href="https://twitch.tv//Pengwin" target="_blank">
+          <Link href="https://twitch.tv/pengwin" target="_blank">
             <FaTwitch className="h-5 w-5" />
           </Link>
         </Button>
