@@ -8,6 +8,7 @@ import {
   FaTiktok,
   FaTwitch,
   FaXTwitter,
+  FaGift,
 } from "react-icons/fa6";
 import { cn } from "@/lib/utils";
 
@@ -75,6 +76,12 @@ const Navbar = ({ isAtTop }: NavbarProps) => {
         <Button variant="social" size="icon">
           <Link href="https://www.instagram.com/pengwinttv/" target="_blank">
             <FaInstagram className="h-5 w-5 stroke-[10]" />
+          </Link>
+        </Button>
+
+        <Button variant="social" size="icon">
+          <Link href="https://throne.com/pengwinn" target="_blank">
+            <FaGift className="h-5 w-5" />
           </Link>
         </Button>
       </div>
