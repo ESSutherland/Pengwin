@@ -1,0 +1,5 @@
+{
+    "rewrites": [
+      {"source": "/pokedex", "destination": "https://essutherland.github.io/Pokedex"}
+    ]
+  }
