@@ -7,6 +7,7 @@ import { useMedia } from "react-use";
 const StreamPreview = () => {
   const isMobile = useMedia("(max-width: 640px)", false);
   const is3XL = useMedia("(min-width: 2000px)", false);
+  const is4XL = useMedia("(min-width: 3000px)", false);
 
   return (
     <div
@@ -17,8 +18,8 @@ const StreamPreview = () => {
     >
       <TwitchPlayer
         channel="pengwin"
-        width={isMobile ? 320 : is3XL ? 854 : 640}
-        height={isMobile ? 180 : is3XL ? 480 : 360}
+        width={isMobile ? 320 : is3XL ? 854 : is4XL ? 1020 : 640}
+        height={isMobile ? 180 : is3XL ? 480 : is4XL ? 620 : 360}
         className={cn("", isMobile ? "p-2" : "p-2.5")}
       />
       <div
