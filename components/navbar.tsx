@@ -11,6 +11,7 @@ import {
   FaGift,
 } from "react-icons/fa6";
 import { cn } from "@/lib/utils";
+import { TbBrandKickFilled } from "react-icons/tb";
 
 type NavbarProps = {
   isAtTop: boolean;
@@ -52,6 +53,12 @@ const Navbar = ({ isAtTop }: NavbarProps) => {
         <Button variant="social" size="icon">
           <Link href="https://twitch.tv/pengwin" target="_blank">
             <FaTwitch className="h-5 w-5" />
+          </Link>
+        </Button>
+
+        <Button variant="social" size="icon">
+          <Link href="https://kick.com/pengwin" target="_blank">
+            <TbBrandKickFilled className="h-5 w-5" />
           </Link>
         </Button>
 
