@@ -24,7 +24,7 @@ const Navbar = ({ isAtTop }: NavbarProps) => {
         "fixed items-center left-1/2 -translate-x-1/2 flex z-10 transition-all justify-between",
         isAtTop
           ? "w-full max-w-[1140px] gap-x-4 px-10 py-3 "
-          : "w-full max-w-[700px] mt-4 gap-x-3 bg-sky-600 py-2 px-6 sm:px-10 rounded-full drop-shadow-[0px_8px_0px_var(--shadow-color)]"
+          : "w-full max-w-[700px] mt-4 gap-x-3 bg-sky-600 py-2 px-6 sm:px-10 rounded-full drop-shadow-[0px_8px_0px_var(--shadow-color)]",
       )}
     >
       <div className="flex gap-x-4 items-center">
@@ -42,7 +42,7 @@ const Navbar = ({ isAtTop }: NavbarProps) => {
         <p
           className={cn(
             "text-center tracking-widest blue-shadow-lg uppercase text-3xl md:text-[3rem] hidden sm:block",
-            !isAtTop && "text-3xl"
+            !isAtTop && "text-3xl",
           )}
         >
           pengwin
