@@ -1,0 +1,149 @@
+{
+	"gamble" : [
+		{
+			"command": "!points [username]",
+			"cooldown": "No cooldown",
+			"description": "See how many points you or another viewer have (+100/min, +200/min for subs)."
+		}, 
+		{
+			"command": "!givePoints [username] [amount]",
+			"cooldown": "No cooldown",
+			"description": "Give your points to other viewers."
+		},
+		{
+			"command": "!pointsLeaderboard",
+			"cooldown": "No cooldown",
+			"description": "See the top 10 people with the most points."
+		},
+		{
+			"command": "!gamble [amount]",
+			"cooldown": "5min cooldown",
+			"description": "Gamble any number of points."
+		},
+		{
+			"command": "!scratchcard",
+			"cooldown": "5min cooldown",
+			"description": "Buy a scratch card for a chance to win the Jackpot (4 per stream)."
+		},
+		{
+			"command": "!duel [username] [amount]",
+			"cooldown": "5min cooldown",
+			"description": "Challenge another viewer to a duel with points on the line."
+		},
+		{
+			"command": "!accept [username]",
+			"cooldown": "No cooldown",
+			"description": "Accepts a duel."
+		}
+	],
+
+	"general" : [
+		{
+			"command": "!birthday set [MM/DD]",
+			"cooldown": "1-time use",
+			"description": "Set your own birthday and the bot will wish you a happy birthday when the day comes."
+		},
+		{
+			"command": "!birthday next",
+			"cooldown": "No cooldown",
+			"description": "Shows upcoming viewer birthdays."
+		},
+		{
+			"command": "!dadjoke",
+			"cooldown": "No cooldown",
+			"description": "The bot will tell you a dad joke."
+		},
+		{
+			"command": "!discord",
+			"cooldown": "No cooldown",
+			"description": "Links to community discord server."
+		},
+		{
+			"command": "!fact",
+			"cooldown": "No cooldown",
+			"description": "The bot will tell you a random fact."
+		},
+		{
+			"command": "!friendcode",
+			"cooldown": "No cooldown",
+			"description": "Gives Pengwin's Switch friend code."
+		},
+		{
+			"command": "!gg",
+			"cooldown": "No cooldown",
+			"description": "Links to Gamersupps affiliate page."
+		},
+		{
+			"command": "!lastSong",
+			"cooldown": "No cooldown",
+			"description": "Tells you the previously played song (Spotify only)."
+		},
+		{
+			"command": "!mal",
+			"cooldown": "No cooldown",
+			"description": "Links to Pengwin's MyAnimeList page."
+		},
+		{
+			"command": "!merch",
+			"cooldown": "No cooldown",
+			"description": "Links to merch site."
+		},
+		{
+			"command": "!roll [(amount)d(sides)]",
+			"cooldown": "No cooldown",
+			"description": "Roll dice (ex. !roll 4d20)"
+		},
+		{
+			"command": "!song",
+			"cooldown": "No cooldown",
+			"description": "Tells you the currently playing song (Spotify only)."
+		},
+		{
+			"command": "!specs",
+			"cooldown": "No cooldown",
+			"description": "Lists Pengwin's specs for his streaming setup."
+		},
+		{
+			"command": "!sub",
+			"cooldown": "No cooldown",
+			"description": "Links to Pengwin's Twitch sub page."
+		},
+		{
+			"command": "!tiktok",
+			"cooldown": "No cooldown",
+			"description": "Links to Pengwin's TikTok page."
+		},
+		{
+			"command": "!tip",
+			"cooldown": "No cooldown",
+			"description": "Links to Ko-fi tip page."
+		},
+		{
+			"command": "!tts",
+			"cooldown": "No cooldown",
+			"description": "Links to TTSMonster guide."
+		},
+		{
+			"command": "!twitter",
+			"cooldown": "No cooldown",
+			"description": "Links to Pengwin's Twitter page."
+		},
+		{
+			"command": "!watchtime [username]",
+			"cooldown": "No cooldown",
+			"description": "Tells you your or another viewers total watch time."
+		},
+		{
+			"command": "!wishlist",
+			"cooldown": "No cooldown",
+			"description": "Links to Pengwin's Throne wishlist."
+		},
+		{
+			"command": "!vods",
+			"cooldown": "No cooldown",
+			"description": "Links to Pengwin's VOD Youtube."
+		}
+	]
+
+}
+

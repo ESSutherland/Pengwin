@@ -87,15 +87,21 @@ body,
   }
 
   .blue-shadow-lg {
-    text-shadow: 1px 1px 0px var(--shadow-color),
-      2px 2px 0px var(--shadow-color), 3px 3px 0px var(--shadow-color),
-      4px 4px 0px var(--shadow-color), 5px 5px 0px var(--shadow-color),
-      6px 6px 0px var(--shadow-color), 7px 7px 0px var(--shadow-color);
+    text-shadow:
+      1px 1px 0px var(--shadow-color),
+      2px 2px 0px var(--shadow-color),
+      3px 3px 0px var(--shadow-color),
+      4px 4px 0px var(--shadow-color),
+      5px 5px 0px var(--shadow-color),
+      6px 6px 0px var(--shadow-color),
+      7px 7px 0px var(--shadow-color);
   }
 
   .blue-shadow-sm {
-    text-shadow: 1px 1px 0px var(--shadow-color),
-      2px 2px 0px var(--shadow-color), 3px 3px 0px var(--shadow-color);
+    text-shadow:
+      1px 1px 0px var(--shadow-color),
+      2px 2px 0px var(--shadow-color),
+      3px 3px 0px var(--shadow-color);
   }
 
   .blue-icon-shadow {
@@ -109,5 +115,21 @@ body,
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  table {
+    @apply text-sm md:text-xl bg-sky-500 p-5 overflow-hidden rounded-xl;
+  }
+
+  thead {
+    @apply bg-sky-600;
+  }
+
+  th {
+    @apply align-middle text-center text-lg md:text-2xl p-2;
+  }
+
+  td {
+    @apply px-5;
   }
 }
