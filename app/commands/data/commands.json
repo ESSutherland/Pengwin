@@ -49,6 +49,11 @@
 			"description": "Shows upcoming viewer birthdays."
 		},
 		{
+			"command": "!burp",
+			"cooldown": "10s cooldown",
+			"description": "Counts how many times streamer has burped."
+		},		
+		{
 			"command": "!dadjoke",
 			"cooldown": "No cooldown",
 			"description": "The bot will tell you a dad joke."
@@ -67,6 +72,11 @@
 			"command": "!friendcode",
 			"cooldown": "No cooldown",
 			"description": "Gives Pengwin's Switch friend code."
+		},
+		{
+			"command": "!followage",
+			"cooldown": "No cooldown",
+			"description": "Tells you how long you or another viewer has been following"
 		},
 		{
 			"command": "!gg",
@@ -96,7 +106,12 @@
 		{
 			"command": "!song",
 			"cooldown": "No cooldown",
-			"description": "Tells you the currently playing song (Spotify only)."
+			"description": "Tells you the currently playing song (Spotify only)."	
+		},
+		{
+			"command": "!sneeze",
+			"cooldown": "10s cooldown",
+			"description": "Counts how many times streamer has sneezed."
 		},
 		{
 			"command": "!specs",
