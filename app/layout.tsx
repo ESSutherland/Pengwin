@@ -25,7 +25,7 @@ export default function RootLayout({
           <div className="bg-[url('/top-corner.png')] h-[148px] w-[178px] lg:h-[222px] lg:w-[267px] bg-contain bg-center fixed top-0 right-0 bg-no-repeat z-[2] pointer-events-none" />
 
           <Navbar />
-          <div className="h-full w-full max-w-[1140px] m-auto flex flex-col items-center justify-center">
+          <div className="h-full w-full m-auto flex flex-col items-center justify-center">
             {children}
             <Footer />
           </div>
